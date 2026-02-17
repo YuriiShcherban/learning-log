@@ -1,0 +1,28 @@
+# Programming Learning Log
+
+## Day 15 – SQL Basics (PostgreSQL)
+
+### Topics:
+- SELECT
+- WHERE
+- LIKE
+- DISTINCT
+- MIN()
+- Subquery
+- ORDER BY
+- LIMIT
+
+### Practice:
+- Queried Machine Learning Engineer salaries (2023)
+- Found minimum Data Scientist salary and country
+- Filtered Ukrainian specialists
+- Exported CSV from pgAdmin
+
+### Problems I Faced:
+- Aggregate + non-aggregate error
+- Extra space in column name
+
+### What I Learned:
+- How MIN() works
+- Why GROUP BY error happens
+- How subqueries work
