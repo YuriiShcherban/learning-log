@@ -86,3 +86,36 @@
 - MIN()
 - Subqueries
 - Exported filtered data to CSV
+- ## Day 16 – SQL Practice & Reinforcement
+
+### Focus:
+Rewriting previous SQL tasks independently to improve speed and syntax confidence.
+
+### Queries Practiced:
+
+- Filtered engineers in 2023 and sorted by salary (TOP 5)
+- Found lowest Data Scientist salary in 2023
+- Retrieved top fully remote salaries (remote_ratio = 100)
+- Counted distinct job titles
+- Calculated MIN, MAX, AVG salary for 2023
+- Converted salary from USD to UAH using multiplication
+- Used ROUND() for formatting
+- Applied ORDER BY using column position (ORDER BY 1)
+
+### Key Concepts Reinforced:
+- SELECT / WHERE / ORDER BY / LIMIT
+- LIKE operator
+- DISTINCT
+- Aggregate functions (MIN, MAX, AVG, COUNT)
+- Salary conversion using arithmetic operations
+- Column aliasing (AS)
+- Understanding ORDER BY by column index
+
+### Improvements Noticed:
+- Queries written significantly faster than previous day
+- Better understanding of SQL structure
+- Less hesitation with syntax
+
+### Reflection:
+Still improving confidence with syntax, but logical understanding is strong.
+Need more repetition to fully automate structure.
