@@ -116,6 +116,24 @@ Rewriting previous SQL tasks independently to improve speed and syntax confidenc
 - Better understanding of SQL structure
 - Less hesitation with syntax
 
+## Day 17 – SQL Logical Practice
+
+### Focus:
+Practiced complex filtering and subqueries.
+
+### Topics:
+- AND / OR precedence and parentheses
+- IN vs OR
+- BETWEEN vs IN
+- HAVING vs WHERE
+- Nested subqueries
+- GROUP BY + aggregation
+- LIMIT / OFFSET (2nd highest value)
+- Word count logic using string functions
+
+### Key Insight:
+Better understanding of SQL execution order and logical grouping.
+Queries written faster than previous days.
+
 ### Reflection:
-Still improving confidence with syntax, but logical understanding is strong.
-Need more repetition to fully automate structure.
+Still polishing syntax, but logic and confidence improving.
