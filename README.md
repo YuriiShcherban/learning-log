@@ -138,30 +138,30 @@ Queries written faster than previous days.
 ### Reflection:
 Still polishing syntax, but logic and confidence improving.
 
-###Day 18 – SQL JOIN + HAVING Deep Practice
+## __Day 18 – SQL JOIN + HAVING Deep Practice__
 
-###Focus:
+**__Focus:__**  
 Practiced multi-table JOINs, aggregation, and filtering aggregated results using subqueries.
 
-###Topics:
-INNER JOIN (3–4 table chains)
-LEFT JOIN logic and anti-join pattern
-Revenue calculation with SUM(UnitPrice * Quantity)
-Granularity awareness (Invoice vs InvoiceLine level)
-Avoiding double counting
-COUNT vs SUM differences
-HAVING with subquery
-Nested subqueries in WHERE and HAVING
-Derived tables (subquery in FROM)
-Primary key awareness (when DISTINCT is unnecessary)
+**__Topics:__**  
+- INNER JOIN (3–4 table chains)  
+- LEFT JOIN logic and anti-join pattern  
+- Revenue calculation with `SUM(UnitPrice * Quantity)`  
+- Granularity awareness (Invoice vs InvoiceLine level)  
+- Avoiding double counting  
+- COUNT vs SUM differences  
+- HAVING with subquery  
+- Nested subqueries in WHERE and HAVING  
+- Derived tables (subquery in FROM)  
+- Primary key awareness (when DISTINCT is unnecessary)  
 
-###Key Insight:
-Strong improvement in understanding aggregation levels and execution order.
-Clearer distinction between row-level data and aggregated-level data.
-Better control over JOIN logic and grouping strategy.
+**__Key Insight:__**  
+Stronger understanding of aggregation levels and SQL execution order.  
+Clear distinction between row-level data and aggregated-level data.  
+More confidence with multi-table JOIN logic.
 
-###Reflection:
-JOIN feels much more natural.
-Nested subqueries are challenging but becoming clearer.
-Main difficulty now is structural thinking, not logic itself.
+**__Reflection:__**  
+JOIN feels much more natural now.  
+Nested subqueries are still mentally heavy but structurally clearer.  
+Main difficulty is structural thinking, not logical reasoning.
 
