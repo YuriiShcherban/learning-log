@@ -143,7 +143,7 @@ Still polishing syntax, but logic and confidence improving.
 ###Focus:
 Practiced multi-table JOINs, aggregation, and filtering aggregated results using subqueries.
 
-###Topics:
+##Topics:
 INNER JOIN (3–4 table chains)
 LEFT JOIN logic and anti-join pattern
 Revenue calculation with SUM(UnitPrice * Quantity)
@@ -155,12 +155,12 @@ Nested subqueries in WHERE and HAVING
 Derived tables (subquery in FROM)
 Primary key awareness (when DISTINCT is unnecessary)
 
-###Key Insight:
+##Key Insight:
 Strong improvement in understanding aggregation levels and execution order.
 Clearer distinction between row-level data and aggregated-level data.
 Better control over JOIN logic and grouping strategy.
 
-###Reflection:
+##Reflection:
 JOIN feels much more natural.
 Nested subqueries are challenging but becoming clearer.
 Main difficulty now is structural thinking, not logic itself.
