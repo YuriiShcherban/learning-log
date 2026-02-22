@@ -165,3 +165,30 @@ JOIN feels much more natural now.
 Nested subqueries are still mentally heavy but structurally clearer.  
 Main difficulty is structural thinking, not logical reasoning.
 
+## __Day 19 – SQL Set Operations + Correlated Subqueries__
+
+**__Focus:__**  
+Practiced set operations (UNION, EXCEPT), correlated subqueries, and top-per-group logic.
+
+**__Topics:__**  
+- UNION vs UNION ALL  
+- EXCEPT (set difference logic)  
+- Vertical vs horizontal result structures  
+- MIN / MAX using UNION  
+- Correlated subqueries  
+- Top record per group (MAX per Genre)  
+- Multi-level aggregation (Track → Genre)  
+- Correct GROUP BY granularity  
+- USING vs ON in JOIN  
+- DISTINCT necessity analysis  
+- SQLite vs PostgreSQL strictness differences  
+
+**__Key Insight:__**  
+Clearer understanding of aggregation levels across nested queries.  
+Improved ability to separate calculation level (Track) from comparison level (Genre).  
+Better awareness of when subqueries must be correlated.
+
+**__Reflection:__**  
+Structure building has improved significantly compared to previous days.  
+Logic still requires concentration but feels more controlled.  
+Starting to think in terms of data levels instead of just syntax.
