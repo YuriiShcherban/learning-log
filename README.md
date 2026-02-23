@@ -192,3 +192,29 @@ Better awareness of when subqueries must be correlated.
 Structure building has improved significantly compared to previous days.  
 Logic still requires concentration but feels more controlled.  
 Starting to think in terms of data levels instead of just syntax.
+## __Day 20 – SQL CTE + Multi-Level Aggregation__
+
+**Focus:**  
+Practiced CTE (Common Table Expressions) and multi-level aggregation logic.
+
+**Topics:**  
+- CTE structure (WITH)  
+- Single vs multiple CTE blocks  
+- Aggregation levels (Invoice → Customer → Country)  
+- SUM per customer  
+- AVG vs MAX at correct granularity  
+- Global vs local averages  
+- HAVING with aggregated comparisons  
+- Eliminating unnecessary JOINs  
+- COUNT(*) vs COUNT(DISTINCT)  
+- Debugging CTE scope errors (SQLite behavior)  
+
+**Key Insight:**  
+Stronger understanding of aggregation hierarchy and data levels.  
+Improved separation between calculation layer and comparison layer.  
+Better awareness of when JOIN distorts aggregate results.
+
+**Reflection:**  
+Logic feels more structured and controlled.  
+Mistakes are mostly technical, not conceptual.  
+Clear progress toward analytical query architecture thinking.
