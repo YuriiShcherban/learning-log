@@ -192,6 +192,7 @@ Better awareness of when subqueries must be correlated.
 Structure building has improved significantly compared to previous days.  
 Logic still requires concentration but feels more controlled.  
 Starting to think in terms of data levels instead of just syntax.
+
 ## __Day 20 – SQL CTE + Multi-Level Aggregation__
 
 **Focus:**  
@@ -218,3 +219,32 @@ Better awareness of when JOIN distorts aggregate results.
 Logic feels more structured and controlled.  
 Mistakes are mostly technical, not conceptual.  
 Clear progress toward analytical query architecture thinking.
+
+## __**Day 21 – SQL Window Functions (ROW_NUMBER, RANK, DENSE_RANK)**__
+
+**Focus:**  
+Introduced Window Functions and practiced ranking logic per partition.
+
+**Topics:**  
+- OVER() clause structure  
+- PARTITION BY vs GROUP BY difference  
+- ORDER BY inside window functions  
+- ROW_NUMBER()  
+- RANK()  
+- DENSE_RANK()  
+- Top-1 per group pattern using CTE  
+- Filtering window results via CTE  
+- Logical vs unnecessary ORDER BY inside OVER  
+- Understanding partition scope  
+- Debugging alias scope errors  
+
+**Key Insight:**  
+Window functions do not reduce row count — they calculate over partitions while preserving original rows.  
+Clear understanding that PARTITION defines calculation scope.  
+ORDER BY inside OVER controls ranking order, not final result ordering.
+
+**Reflection:**  
+Conceptual understanding developing quickly.  
+Initial confusion with PARTITION target resolved.  
+Ranking logic feels intuitive now.  
+Confidence level increasing toward analytical SQL thinking.
